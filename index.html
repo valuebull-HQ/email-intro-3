@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>For Ed, a quick note before we talk · ValueBull</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#1a1a1b">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ValueBull">
+<meta property="og:title" content="A quick note before we talk">
+<meta property="og:description" content="Why I thought of you, Ed, and what our call is about. A two-minute read from Doug at ValueBull.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="A quick note before we talk · ValueBull">
+<meta name="twitter:description" content="Why I thought of you, Ed, and what our call is about. A two-minute read from Doug at ValueBull.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{
+--gold:#FED700; --black:#1a1a1b; --dark:#1f1a16; --charcoal:#2d2d2d;
+--ink:#0f1729; --ink2:#374151; --ink3:#6b7280;
+--white:#fff; --warm:#fafaf7; --soft:#f8f9fa; --mid:#f0f0ee; --border:#edf0f3;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--warm);line-height:1.62;-webkit-font-smoothing:antialiased;font-size:18px;}
+.wrap{max-width:780px;margin:0 auto;padding:0 26px;}
+.bebas{font-family:'Bebas Neue',sans-serif;text-transform:uppercase;line-height:.96;}
+.eyebrow{font-family:'Poppins',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.16em;font-size:13.5px;}
+h1,h2,h3,h4{font-family:'Poppins',sans-serif;line-height:1.18;}
+.logo{display:inline-flex;align-items:center;}
+.logo svg{display:block;width:auto;}
+.logo--nav svg{height:30px;}
+.logo--foot svg{height:26px;}
+
+/* nav */
+nav{position:sticky;top:0;z-index:10;background:rgba(26,26,27,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,.08);}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:66px;}
+nav .tag{font-family:'Poppins',sans-serif;font-weight:600;font-size:13px;color:rgba(255,255,255,.55);text-transform:uppercase;letter-spacing:.12em;}
+
+/* hero (dark) */
+.hero{background:var(--black);color:#fff;padding:72px 0 66px;}
+.hero .eyebrow{color:var(--gold);}
+.hero h1{font-family:'Bebas Neue',sans-serif;text-transform:uppercase;font-size:clamp(50px,10vw,88px);line-height:.95;margin:20px 0 0;}
+.hero h1 .g{color:var(--gold);}
+.note{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-left:4px solid var(--gold);border-radius:16px;padding:30px 32px;margin-top:38px;}
+.note p{color:rgba(255,255,255,.88);font-size:18.5px;margin-bottom:16px;}
+.note p:last-child{margin-bottom:0;}
+.note .sig{font-family:'Poppins',sans-serif;font-weight:700;color:#fff;margin-top:10px;font-size:18px;}
+.note .sig span{display:block;font-family:'DM Sans',sans-serif;font-weight:400;font-size:15px;color:rgba(255,255,255,.55);margin-top:3px;}
+
+/* section base */
+section{padding:64px 0;}
+.eyebrow.muted{color:var(--ink3);}
+.lead{font-size:24px;font-weight:500;font-family:'Poppins',sans-serif;color:var(--ink);line-height:1.3;margin-top:14px;letter-spacing:-.01em;}
+.body-t{font-size:18.5px;color:var(--ink2);margin-top:20px;}
+.body-t .hl{color:var(--ink);font-weight:600;}
+.body-t em{font-style:normal;background:linear-gradient(transparent 60%, var(--gold) 60%);padding:0 2px;font-weight:600;}
+
+/* stats strip */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:34px;}
+.stat{background:var(--white);border:1px solid var(--border);border-top:3px solid var(--gold);border-radius:12px;padding:20px 16px;}
+.stat .n{font-family:'Poppins',sans-serif;font-weight:800;color:var(--ink);font-size:29px;line-height:1;}
+.stat .l{font-size:13.5px;color:var(--ink3);margin-top:9px;line-height:1.4;}
+
+/* how cards */
+.section-soft{background:var(--soft);border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
+.cards{display:grid;grid-template-columns:1fr;gap:16px;margin-top:28px;}
+.card{background:var(--white);border:1px solid var(--border);border-radius:16px;padding:26px 28px;display:flex;gap:20px;align-items:flex-start;transition:box-shadow .2s,transform .2s;}
+.card:hover{box-shadow:0 8px 24px rgba(15,23,41,.1);transform:translateY(-1px);}
+.card .num{font-family:'Poppins',sans-serif;font-weight:800;font-size:16px;color:#bda000;background:rgba(254,215,0,.14);border-radius:9999px;width:46px;height:46px;display:flex;align-items:center;justify-content:center;flex:none;}
+.card h4{font-size:20.5px;color:var(--ink);}
+.card p{font-size:16.5px;color:var(--ink2);margin-top:7px;}
+
+.princ{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px;}
+.princ .pill{background:var(--black);color:#fff;border-radius:16px;padding:24px 26px;}
+.princ .pill .e{font-family:'Poppins',sans-serif;font-weight:700;font-size:16.5px;color:var(--gold);}
+.princ .pill p{font-size:15.5px;color:rgba(255,255,255,.84);margin-top:9px;}
+
+/* gold CTA */
+.cta{background:var(--gold);color:var(--black);}
+.cta .wrap{padding:64px 26px 70px;}
+.cta .eyebrow{color:rgba(26,26,27,.6);}
+.cta h2{font-family:'Poppins',sans-serif;font-weight:800;font-size:clamp(28px,5vw,40px);line-height:1.1;margin-top:14px;letter-spacing:-.01em;}
+.cta p{font-size:18.5px;margin-top:18px;max-width:580px;color:#26241f;}
+.cta p b{font-weight:700;}
+.cta .btn{display:inline-block;margin-top:28px;background:var(--black);color:#fff;font-family:'Poppins',sans-serif;font-weight:600;font-size:16.5px;text-decoration:none;padding:16px 32px;border-radius:9999px;transition:transform .2s,background .2s;}
+.cta .btn:hover{transform:scale(1.03);background:#000;}
+
+/* footer */
+footer{background:var(--black);color:rgba(255,255,255,.6);padding:38px 0;}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;font-size:14px;}
+footer .small{font-size:12.5px;color:rgba(255,255,255,.4);}
+
+@media(max-width:680px){
+body{font-size:17px;}
+.wrap{padding:0 20px;}
+section{padding:46px 0;}
+.hero{padding:52px 0 48px;}
+.note{padding:24px 22px;margin-top:30px;}
+.note p{font-size:17.5px;}
+.stats{grid-template-columns:1fr 1fr;gap:12px;}
+.princ{grid-template-columns:1fr;}
+.lead{font-size:22px;}
+.body-t{font-size:17.5px;}
+.card{padding:22px 22px;gap:16px;}
+.cta .wrap{padding:52px 20px 56px;}
+nav .tag{display:none;}
+}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap"><span class="logo logo--nav"><svg xmlns="http://www.w3.org/2000/svg" viewBox="30 395 950 216" fill="#FED700"><g>
+<path d="M892.42,465.6l-5.69-30.72,25.56,5.91-5.48-31.15s33.98,16.77,36.96,49.65c2.38,26.31-51.35,6.31-51.35,6.31Z"/>
+<path d="M769,468.11l7.51-30.72-22.28,4.8,5.48-31.15s-35.73,12.27-38.47,45.17c-2.74,32.9,47.75,11.91,47.75,11.91Z"/>
+</g>
+<g>
+<path d="M147.33,588.4h-46.95l-44.23-128.05h41.33l20.56,73.53,6.6,25.03,6.21-24.64,20.76-73.92h39.96l-44.23,128.05Z"/>
+<path d="M280.83,566.09l-3.1,20.76c-4.27,2.33-8.92,3.49-13.78,3.49-14.36,0-24.64-5.04-27.94-15.71-5.43,9.51-16.68,15.71-34.54,15.71-19.79,0-30.07-8.34-30.07-23.67,0-16.1,10.28-25.8,37.83-31.43l20.56-4.27v-3.69c0-7.37-4.07-11.83-11.06-11.83s-12.81,2.91-13.97,13.39l-32.2-6.79c2.72-20.18,18.24-32.59,47.53-32.59,32.4,0,48.5,12.8,48.5,38.61v31.04c0,5.24,2.33,7.76,6.79,7.76,2.13,0,3.88-.19,5.43-.78ZM229.8,556v-8.92l-10.67,2.71c-6.79,1.75-10.09,5.05-10.09,10.09s3.3,7.57,8.15,7.57c6.21,0,12.61-3.88,12.61-11.45Z"/>
+<path d="M320.22,552.12c0,8.15,2.13,11.64,8.54,11.64,3.3,0,5.43-.39,8.34-1.36l-2.13,22.31c-4.66,3.3-14.16,5.63-22.31,5.63-22.5,0-31.62-9.31-31.62-32.4v-106.51h39.19v100.69Z"/>
+<path d="M438.57,491.4v97h-35.31l-.97-19.21c-5.82,14.16-17.27,21.15-33.18,21.15-19.98,0-32.2-9.7-32.2-33.76v-65.19h39.19v55.49c0,10.67,3.49,14.16,10.09,14.16,8.15,0,13.19-5.82,13.19-18.62v-51.03h39.19Z"/>
+<path d="M546.26,548.82h-63.63c1.55,11.25,7.18,14.74,16.49,14.74,7.95,0,12.81-3.3,14.55-9.31l31.62,9.12c-5.04,18.04-23.09,26.97-46.17,26.97-35.5,0-54.32-18.43-54.32-50.44s19.01-50.44,52.19-50.44,50.25,18.82,50.25,48.11c0,3.88-.39,8.73-.97,11.25ZM482.43,531.75h28.13c-1.16-10.28-5.24-15.71-13.39-15.71s-13.19,4.46-14.74,15.71Z"/>
+<path d="M550.34,460.35h68.1c32.01.19,47.14,11.84,47.14,34.34,0,14.94-8.92,26.39-27.55,29.1v.19c20.95,2.52,30.85,14.16,30.85,30.26,0,22.31-15.33,34.15-46.37,34.15h-72.17v-128.05ZM610.1,511.18c10.09,0,14.94-3.68,14.94-11.44s-4.85-11.45-14.94-11.45h-21.73v22.89h21.73ZM613.4,561.63c10.09,0,14.94-3.88,14.94-11.64s-4.85-11.45-14.94-11.45h-25.03v23.09h25.03Z"/>
+<path d="M775.21,491.4v97h-35.31l-.97-19.21c-5.82,14.16-17.27,21.15-33.18,21.15-19.98,0-32.2-9.7-32.2-33.76v-65.19h39.19v55.49c0,10.67,3.49,14.16,10.09,14.16,8.15,0,13.19-5.82,13.19-18.62v-51.03h39.19Z"/>
+<path d="M824.5,552.12c0,8.15,2.13,11.64,8.54,11.64,3.3,0,5.43-.39,8.34-1.36l-2.13,22.31c-4.66,3.3-14.16,5.63-22.31,5.63-22.5,0-31.62-9.31-31.62-32.4v-106.51h39.19v100.69Z"/>
+<path d="M880.58,552.12c0,8.15,2.13,11.64,8.54,11.64,3.3,0,5.43-.39,8.34-1.36l-2.13,22.31c-4.66,3.3-14.16,5.63-22.31,5.63-22.5,0-31.62-9.31-31.62-32.4v-106.51h39.19v100.69Z"/>
+</g>
+<circle cx="921.58" cy="569.5" r="20.51"/></svg></span><div class="tag">Prepared for Ed</div></div></nav>
+
+<!-- HERO + personal note -->
+<header class="hero"><div class="wrap">
+<div class="eyebrow">A quick note before we talk</div>
+<h1>Ed, here's what<br>the call's <span class="g">about.</span></h1>
+
+<div class="note">
+<p>Hi Ed, thanks for making the time. You sold us our house a few years back and did a cracking job of it, so you're the first person I wanted to call about this.</p>
+<p>I've since started a business called <b style="color:#fff">ValueBull</b>. In short: we help teams turn their culture into something they can actually <em style="background:linear-gradient(transparent 60%, rgba(254,215,0,.5) 60%);font-style:normal">use</em>, not just say. Real estate is one of the industries where that gap costs the most, which is why I thought of you.</p>
+<p>I'll bring my business partner Trav, who leads this work and has spent a lot of time inside agencies. This page is just so you know what we're on about before we jump on. Two-minute read.</p>
+<p class="sig">Doug<span>Founder, ValueBull · doug@valuebull.com.au</span></p>
+</div>
+</div></header>
+
+<!-- PROBLEM -->
+<section><div class="wrap">
+<div class="eyebrow muted">The problem we solve</div>
+<div class="lead">Real estate runs on numbers. But culture is quietly running the whole show.</div>
+<p class="body-t">It decides who stays, who performs under pressure, and who walks. You know the cracks better than I do: an office of <span class="hl">lone wolves</span> chasing their own targets, "family values" on the website and "every person for themselves" on the floor, and the <span class="hl">revolving door</span> of recruits who arrive keen and burn out. Then the annual two-day offsite that feels great for a week and quietly fades. The values end up on a wall, not in the calls your team makes at 6pm on a Friday.</p>
+<div class="stats">
+<div class="stat"><div class="n">1 in 4</div><div class="l">changed employer in a single year</div></div>
+<div class="stat"><div class="n">~40%</div><div class="l">turnover in some agencies</div></div>
+<div class="stat"><div class="n">1.5&times;</div><div class="l">salary to replace one person</div></div>
+<div class="stat"><div class="n">Least</div><div class="l">trusted profession in Australia</div></div>
+</div>
+</div></section>
+
+<!-- INSIGHT -->
+<section class="section-soft"><div class="wrap">
+<div class="eyebrow muted">Why it matters right now</div>
+<div class="lead">Culture used to be intangible. AI just changed that.</div>
+<p class="body-t">Your team is already using AI, to write listings, reply to buyers, draft emails. AI is the most confident guide your business has ever had: it answers instantly and sounds great. The catch is that it scales <em>whatever</em> you feed it. Point it at a fuzzy culture and <span class="hl">three agents asking the same question get three different answers</span>. The agencies that win the next few years will be the ones whose people <span class="hl">and</span> whose tools run off the same playbook.</p>
+</div></section>
+
+<!-- HOW -->
+<section><div class="wrap">
+<div class="eyebrow muted">How we solve it</div>
+<div class="lead">We turn your culture into one playbook, for your people and your AI.</div>
+<div class="cards">
+<div class="card"><div class="num">01</div><div><h4>Culture Code</h4><p>The instruction manual for how your agency actually wins: the behaviours behind the values, engineered to be used under pressure, not framed on a wall.</p></div></div>
+<div class="card"><div class="num">02</div><div><h4>Culture on a Page</h4><p>One page your whole team gets. No binder, no theory. The shared playbook a new agent could read on their first morning.</p></div></div>
+<div class="card"><div class="num">03</div><div><h4>AI Code</h4><p>That same playbook in a form your AI tools run from, so every listing, reply and draft sounds like your agency, not generic AI.</p></div></div>
+</div>
+<div class="princ">
+<div class="pill"><div class="e">Engineered, not designed by committee.</div><p>We do roughly 80% of the thinking from the outside-in before we even meet. You react to something real, not a blank page and a whiteboard.</p></div>
+<div class="pill"><div class="e">A living system, not a workshop.</div><p>It stays current as your team grows and the tools change. The opposite of the offsite that's forgotten by Friday.</p></div>
+</div>
+</div></section>
+
+<!-- CTA -->
+<section class="cta"><div class="wrap">
+<div class="eyebrow">No pitch, just a conversation</div>
+<h2>What actually makes a real estate team high-performing?</h2>
+<p>That's the whole call. Trav will lead, I'll be there, and we'll keep it short. If it's useful, we'll talk about what working together could look like. If it's not, you'll still walk away with a sharper way to think about your team. <b>Looking forward to it, Ed.</b></p>
+<a class="btn" href="mailto:doug@valuebull.com.au?subject=Our%20chat%20about%20the%20team">Reply to Doug &rarr;</a>
+</div></section>
+
+<footer><div class="wrap">
+<span class="logo logo--foot"><svg xmlns="http://www.w3.org/2000/svg" viewBox="30 395 950 216" fill="#FED700"><g>
+<path d="M892.42,465.6l-5.69-30.72,25.56,5.91-5.48-31.15s33.98,16.77,36.96,49.65c2.38,26.31-51.35,6.31-51.35,6.31Z"/>
+<path d="M769,468.11l7.51-30.72-22.28,4.8,5.48-31.15s-35.73,12.27-38.47,45.17c-2.74,32.9,47.75,11.91,47.75,11.91Z"/>
+</g>
+<g>
+<path d="M147.33,588.4h-46.95l-44.23-128.05h41.33l20.56,73.53,6.6,25.03,6.21-24.64,20.76-73.92h39.96l-44.23,128.05Z"/>
+<path d="M280.83,566.09l-3.1,20.76c-4.27,2.33-8.92,3.49-13.78,3.49-14.36,0-24.64-5.04-27.94-15.71-5.43,9.51-16.68,15.71-34.54,15.71-19.79,0-30.07-8.34-30.07-23.67,0-16.1,10.28-25.8,37.83-31.43l20.56-4.27v-3.69c0-7.37-4.07-11.83-11.06-11.83s-12.81,2.91-13.97,13.39l-32.2-6.79c2.72-20.18,18.24-32.59,47.53-32.59,32.4,0,48.5,12.8,48.5,38.61v31.04c0,5.24,2.33,7.76,6.79,7.76,2.13,0,3.88-.19,5.43-.78ZM229.8,556v-8.92l-10.67,2.71c-6.79,1.75-10.09,5.05-10.09,10.09s3.3,7.57,8.15,7.57c6.21,0,12.61-3.88,12.61-11.45Z"/>
+<path d="M320.22,552.12c0,8.15,2.13,11.64,8.54,11.64,3.3,0,5.43-.39,8.34-1.36l-2.13,22.31c-4.66,3.3-14.16,5.63-22.31,5.63-22.5,0-31.62-9.31-31.62-32.4v-106.51h39.19v100.69Z"/>
+<path d="M438.57,491.4v97h-35.31l-.97-19.21c-5.82,14.16-17.27,21.15-33.18,21.15-19.98,0-32.2-9.7-32.2-33.76v-65.19h39.19v55.49c0,10.67,3.49,14.16,10.09,14.16,8.15,0,13.19-5.82,13.19-18.62v-51.03h39.19Z"/>
+<path d="M546.26,548.82h-63.63c1.55,11.25,7.18,14.74,16.49,14.74,7.95,0,12.81-3.3,14.55-9.31l31.62,9.12c-5.04,18.04-23.09,26.97-46.17,26.97-35.5,0-54.32-18.43-54.32-50.44s19.01-50.44,52.19-50.44,50.25,18.82,50.25,48.11c0,3.88-.39,8.73-.97,11.25ZM482.43,531.75h28.13c-1.16-10.28-5.24-15.71-13.39-15.71s-13.19,4.46-14.74,15.71Z"/>
+<path d="M550.34,460.35h68.1c32.01.19,47.14,11.84,47.14,34.34,0,14.94-8.92,26.39-27.55,29.1v.19c20.95,2.52,30.85,14.16,30.85,30.26,0,22.31-15.33,34.15-46.37,34.15h-72.17v-128.05ZM610.1,511.18c10.09,0,14.94-3.68,14.94-11.44s-4.85-11.45-14.94-11.45h-21.73v22.89h21.73ZM613.4,561.63c10.09,0,14.94-3.88,14.94-11.64s-4.85-11.45-14.94-11.45h-25.03v23.09h25.03Z"/>
+<path d="M775.21,491.4v97h-35.31l-.97-19.21c-5.82,14.16-17.27,21.15-33.18,21.15-19.98,0-32.2-9.7-32.2-33.76v-65.19h39.19v55.49c0,10.67,3.49,14.16,10.09,14.16,8.15,0,13.19-5.82,13.19-18.62v-51.03h39.19Z"/>
+<path d="M824.5,552.12c0,8.15,2.13,11.64,8.54,11.64,3.3,0,5.43-.39,8.34-1.36l-2.13,22.31c-4.66,3.3-14.16,5.63-22.31,5.63-22.5,0-31.62-9.31-31.62-32.4v-106.51h39.19v100.69Z"/>
+<path d="M880.58,552.12c0,8.15,2.13,11.64,8.54,11.64,3.3,0,5.43-.39,8.34-1.36l-2.13,22.31c-4.66,3.3-14.16,5.63-22.31,5.63-22.5,0-31.62-9.31-31.62-32.4v-106.51h39.19v100.69Z"/>
+</g>
+<circle cx="921.58" cy="569.5" r="20.51"/></svg></span>
+<div>Same playbook for humans and AI</div>
+<div class="small">Figures from industry research compiled by ValueBull</div>
+</div></footer>
+
+</body>
+</html>
